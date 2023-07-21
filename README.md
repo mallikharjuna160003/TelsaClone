@@ -20,4 +20,15 @@
      ```
         <link rel="stylesheet" href="../dist/output.css">
      ```
+1. In the tailwind.config.js place the below code
+   ```
+         /** @type {import('tailwindcss').Config} */
+   module.exports = {
+     content: ["./src/**/*.{html,js}"],
+     theme: {
+       extend: {},
+     },
+     plugins: [],
+   }
+```
     
