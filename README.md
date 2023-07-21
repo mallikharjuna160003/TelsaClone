@@ -9,5 +9,8 @@
       @tailwind components;
       @tailwind utilities;
    ```
-1. now run the command ```npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch ``` It will create a folder name dist and output.css file.
+1. now run the command below command. It will create a folder name dist and output.css file.
+ ```npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch ```
+3. Now in the index.html place the below snippet
+     ```      <link rel="stylesheet" href="../dist/output.css"> ```
     
