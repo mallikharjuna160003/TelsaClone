@@ -4,7 +4,8 @@
 1. now run the command ```$npm install -D tailwindcss ```
 1. now run the command ```$npm tailwindcss init```
 1. create a file with name input.css and place
-   ```@tailwind base;
+   ```
+      @tailwind base;
       @tailwind components;
       @tailwind utilities;
    ```
